@@ -1,0 +1,5 @@
+{
+  "load_generator_ami": "",
+  "web_service_ami": "",
+  "instance_type": "m5.large"
+}
