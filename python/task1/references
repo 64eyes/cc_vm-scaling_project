@@ -1,18 +1,12 @@
 {  
     "referenceGuide" : "Cite all the reference sources in the required format. Proper citations will help you avoid unnecessary trouble. Read JSON grammar from Internet if needed.",
     "websites":[  
-        {  
-            "title":"<title of the page>",
-            "url":"<url>",
-            "code":"<in which code you use the snippet or the idea>",
-            "description":"<additional information you find it necessary to provide>"
+        {
+            "title": "Boto3 Documentation",
+            "url": "https://boto3.amazonaws.com/v1/documentation/api/latest/index.html",
+            "code": "horizontal-scaling.py",
+            "description": "Reference for AWS EC2 instance creation and management API"
         }
     ],
-    "collaborators":[
-        {
-            "submissionUsername":"<collaborator submissionUsername>",
-            "collaborationType":"<I helped X, X helped me, or we helped each other>",
-            "description":"<describe the idea you shared>"
-        }
-    ]
+    "collaborators":[]
 }

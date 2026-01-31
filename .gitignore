@@ -1,0 +1,13 @@
+# Ignore AWS credentials
+*.pem
+*.csv
+credentials
+
+# Ignore Python cache and logs
+__pycache__/
+*.pyc
+*.log
+*.tmp
+
+# Ignore system files
+.DS_Store
