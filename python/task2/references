@@ -1,18 +1,30 @@
-{  
-    "referenceGuide" : "Cite all the reference sources in the required format. Proper citations will help you avoid unnecessary trouble. Read JSON grammar from Internet if needed.",
-    "websites":[  
-        {  
-            "title":"<title of the page>",
-            "url":"<url>",
-            "code":"<in which code you use the snippet or the idea>",
-            "description":"<additional information you find it necessary to provide>"
+{
+    "referenceGuide": "Cite all the reference sources in the required format. Proper citations will help you avoid unnecessary trouble. Read JSON grammar from Internet if needed.",
+    "websites": [
+        {
+            "title": "Boto3 Documentation - EC2",
+            "url": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/ec2.html",
+            "code": "autoscaling.py",
+            "description": "Used to verify syntax for run_instances, create_security_group, and describe_instances."
+        },
+        {
+            "title": "Boto3 Documentation - Auto Scaling",
+            "url": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/autoscaling.html",
+            "code": "autoscaling.py",
+            "description": "Used to look up create_auto_scaling_group, put_scaling_policy, and delete_auto_scaling_group."
+        },
+        {
+            "title": "Boto3 Documentation - Elastic Load Balancing v2",
+            "url": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/elbv2.html",
+            "code": "autoscaling.py",
+            "description": "Used to implement create_load_balancer, create_target_group, and create_listener."
+        },
+        {
+            "title": "Boto3 Documentation - CloudWatch",
+            "url": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/cloudwatch.html",
+            "code": "autoscaling.py",
+            "description": "Used to find the parameters for put_metric_alarm."
         }
     ],
-    "collaborators":[
-        {
-            "submissionUsername":"<collaborator submissionUsername>",
-            "collaborationType":"<I helped X, X helped me, or we helped each other>",
-            "description":"<describe the idea you shared>"
-        }
-    ]
+    "collaborators": []
 }
